@@ -1,0 +1,11 @@
+h1 {
+    color: black
+}
+
+h2 {
+    color:rgb(102, 153, 246)
+}
+
+#economy h2 {
+    color: green
+}

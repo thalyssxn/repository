@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <imput type="text" placeholder="seu nome"/>
+        <br />
+        <label for="email">seu e-mail</label>
+        <imput id="email" type="email" />
+        <br />
+        <imput type="tel" placeholder="seu telefone" /> <br />
+        <imput type="number" max="10" min="2" step="2"/> <br />
+        <imput type="file" /> <br />
+        <imput type="color" /> <br />
+        <imput type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos">Aceito os termos</label>
+        <p>
+            qual sua cor favorita?
+        </p>
+        <imput type="radio" name="cor-favorita" id="cor-vermelha" /> <label for="cor-vermelha">vermelho</label>
+        <imput type="radio" name="cor-favorita" id="cor-verde" /> <label for="cor-verde">verde</label>
+        <imput type="radio" name="cor-favorita" id="cor-azul" /> <label for="cor-azul">azul</label>
+        <br />
+        <label>qual seu filme favorito?</label>
+        <select multiple>
+            <option> Filme A</option>
+            <option> Filme B</option>
+            <option> Filme C</option>
+        </select>
+        <br />
+        <textarea></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar.
+        </button>
+    </form>
+</body>
+</html>
